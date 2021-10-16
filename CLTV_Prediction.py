@@ -27,7 +27,7 @@ def replace_with_thresholds(dataframe, variable):
     dataframe.loc[(dataframe[variable] > up_limit), variable] = up_limit
 
 
-df__ = pd.read_excel(r"C:\Users\taha\Desktop\DSMLBC6\Ders Notları\HAFTA_03\online_retail_II.xlsx",
+df__ = pd.read_excel(r"path\online_retail_II.xlsx",
                      sheet_name="Year 2010-2011")
 df = df__.copy()
 df.shape
